@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    color: rgb(82, 82, 239);
+    display:flex;
+    justify-content: space-around;
+    font-size: 23px;
+    flex-wrap: wrap;
+}
+#navh1{
+    text-transform:uppercase;
+}
+
+
+.navbar1{
+    display:flex;
+    align-items: center;
+    column-gap: 20px;
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+    
+}
+.navbar1>.button{
+    background-color: rgba(85, 85, 238, 0.937);
+    color:white;
+    border-radius: 4px;
+    font-weight: bold;
+    padding:5px 20px;
+    font-size: 20px;
+}
+.textA{
+    display: flex;
+    margin:7% 10%;
+    width:100%
+    
+}
+.texta{
+    width:50%
+}
+.texta>.img{
+ width: 40%;
+ height:20%;
+}
+.texta1{
+    text-transform: capitalize;
+    color:darkblue;
+    font-size: 56px;
+    width: 50%;
+    
+}
+.texta2{
+   color:darkblue;
+   font-size: 25px;
+}
+.texta3>span{
+     background-color: rgb(88, 140, 228);
+     color:white;
+    border-radius: 4px;
+    font-weight: bold;
+    padding:5px 20px;
+    font-size: 20px;
+}
+.texta3{
+    display: flex;
+    column-gap: 30px;
+}
+.textB{
+    margin:5px 500px;
+    text-align: center;
+}
+.textB>h1{
+    font-size:65px;
+    color:darkblue;
+}
+.textB>p{
+    font-size: 25px;
+    color:darkblue;
+
+}
+.textB>button{
+    background-color: rgb(88, 140, 228);
+    color:white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px darkblue;
+}
+
+.textC{
+    display: flex;
+    margin:7% 10%;
+    width: 100%;
+}
+.textC>image{
+      width:50%
+}
+.c1{
+    margin-right: 450px;
+    margin-left: 150px;
+    width: 50%;
+}
+.c1>h1{
+    color:darkblue;
+    font-size: 65px;
+}
+.c1>p{
+    color: darkblue;
+    font-size: 20px;
+}
+
+.c2{
+    display: flex;
+    margin-top: 20px;
+}
+.c21{
+    margin-right: 50px;
+}
+.c22{
+    margin-left: 30px;
+}
+
+
+.textD{
+    display: flex;
+    width: 100%;
+}
+.d1{
+ margin-left: 200px;
+ margin-right: 300px;
+}
+.d1>h1{
+    font-size: 55px;
+    color:darkblue
+
+}
+.d1>p{
+    color: darkblue;
+    font-size: 25px;
+}
+.d2{
+   margin-right: 400px;
+}
+
+
+.textE{
+    display: flex;
+    margin-top: 50px;
+}
+.e1{
+    margin-left:220px ;
+}
+.e2{
+    margin-right: 200px;
+    margin-left: 300px;
+}
+.e2>h1{
+    font-size: 55px;
+    color:darkblue
+}
+.e2>p{
+    color: darkblue;
+    font-size: 25px;
+}
+.textD{
+    display:flex;
+    margin-top: 60px;
+    width: 100%;
+}
+.d1{
+    margin-left: 200px;
+    
+    
+}
+.d2{
+    margin-right: 150px;
+    font-size: 18px;
+    
+}
+.one{
+    padding:24px 150px 5px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(159, 200, 201);
+    
+    }
+.two{
+    padding:24px 150px 5px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(159, 200, 201);
+}
+.three{
+    padding:24px 150px 5px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(159, 200, 201);
+}
+#four{
+    padding:10px 35px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+
+}
