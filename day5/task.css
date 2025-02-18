@@ -1,0 +1,137 @@
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid rgb(206, 200, 200);
+    border-radius: 62px;
+    background: linear-gradient(to left,rgb(246, 130, 184),rgb(59, 59, 227));
+    margin: 5px 20px;
+}
+
+.navbar>span{
+    font-size: 100px;
+    color:orangered;
+}
+.navbar1>a{
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+}
+.navbar1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 80px;
+}
+.navbar1>a:hover{
+     
+    color: orangered;
+}
+.navbar1>img{
+    padding:8px;
+    background-color: white;
+    border-radius: 60px;
+}
+.coffeeshop{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+     
+}
+.coffeeshopi{
+    display: flex;
+   
+}
+.coffeeshopt{
+    background-color: white;
+    text-align:start;
+   padding: 10px;
+   position:relative;
+    right:100px ;
+    border-radius: 30px;
+    z-index: 1;
+}
+.coffeeshopt>h5{
+    font-size: 20px;
+    color: rgb(239, 135, 135);
+}
+.coffeeshopt>h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.coffeeshopt>p{
+    font-size: 1.2em;
+}
+.coffeeshopt>ul{
+    font-size: 1.5em;
+}
+
+
+li::marker{
+    color: brown;
+}
+.coffeeshopi>img{
+    border-radius: 20px;
+    position: relative;
+    left: 30%;
+    z-index: 0;
+
+}
+.coffeeshopi>video{
+    border-radius: 15px;
+    position: relative;
+    right: 450px;
+    
+    top: 380px;
+    z-index: 1;
+}
+
+
+
+.stories{
+    display: flex;
+    margin-top: 15%;
+   
+}
+.coffeestoryt{
+    background-color:white;
+    margin-right: 70px;
+    margin-left: 50px;
+    margin-top: 8%;
+    margin-bottom: 7%;
+   position:relative;
+
+    
+    border-radius: 30px;
+    z-index: 1;
+}
+.coffeestorei{
+    display:flex
+}
+#one{
+    border-radius: 60px;
+    position: relative;
+    right: 150px;
+    
+}
+#two{
+    position: relative;
+    left:300px;
+    bottom: 500px;
+    width: 15vw;
+    height:50vh;
+    border-radius: 30px;
+}
+
+.coffeestoryt>h5{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: burlywood;
+}
+.coffeestoryt>h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.coffeestortt>p{
+    font-size: 10px;
+}
