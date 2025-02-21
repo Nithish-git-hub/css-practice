@@ -1,0 +1,175 @@
+*{
+    scroll-behavior: smooth;
+}
+.firstrow{
+    background:linear-gradient(to right,rgba(14, 14, 242, 0.904),rgba(0, 0, 255, 0.636));
+    height: 65vh;
+    padding-top: 10px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    margin-left: 5%;
+    gap: 320px;
+    background: linear-gradient(to right,rgba(14, 14, 242, 0.904),rgba(0, 0, 255, 0.636));
+    padding: 20px 50px 15px 50px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.rightnav{
+    display: flex;
+     gap:50px
+}
+.rightnav>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+}
+.rightnav>a:hover{
+    background-color: rgb(178, 178, 233);
+    border-radius: 10px; 
+}
+.rightnav>#aone{
+    background-color: rgb(178, 178, 233);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.rightnav>button{
+    background-color: orangered;
+    color:white;
+    padding: 10px 25px;
+    border-radius: 18px;
+}
+.modernwarfare{
+    display: inline-block;
+    margin-top: 16%;
+    padding-left: 31%;
+}
+.modernwarfare>h1{
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+.modernwarfare>span{
+    padding-left: 25%;
+    font-size:20px ;
+    color: white;
+}
+.modernwarfare>span>a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.secondrow{
+    display: flex;
+    gap:10%;
+    margin-top: 6%;
+    margin: 6% 7% 0 7%;
+}
+.secondrowt>#one>#sone{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: wheat;
+}
+.secondrowt>#one>#stwo{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+.secondrowt>#input{
+    padding: 15px 0px;
+    border-radius: 40px;
+}
+.secondrowt>#input::placeholder{
+    padding-left: 43%;
+}
+.secondrowt>#cart{
+    padding: 20px 40px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    font-size:25px ;
+}
+
+.secondrowt>#cart:hover{
+    background-color: blue;
+}
+.des{
+    background-color:rgba(0, 0, 0, 0.045);
+    height: 50vh;
+    margin: 6% 5% 0 5%;
+    border-radius: 20px;
+}
+.desanchor>a{
+     font-size: 30px;
+     text-decoration: none;
+     color: black;
+}
+.des>p{
+    font-size: 18px;
+}
+.desanchor>#atwo{
+      color: blue;
+}
+.fourthrow{
+    margin: 6% 5% 0 5%;
+}
+.fourthrow1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fourthrow>h4{
+    color: lightcoral;
+    font-size: 20px;
+}
+.fourthrow1>h2{
+    font-size: 40px;
+}
+.fourthrow1>a{
+      text-decoration: none;
+      background-color: lightcoral;
+      height: 2vh;
+      border:1px solid black;
+      padding: 15px 15px;
+      border-radius: 8px;
+      color: white;
+}
+.cards{
+    margin: 3% 5% 0 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    height: 260px;
+    background-color: blue;
+    width: 236px;
+    border-radius: 20px;
+}
+.card1>h3{
+    text-align: center;
+    color: white;
+}
+.image>img{
+    border-radius:20px ;
+}
+.footer{
+    margin:13% 5% 0 5% ;
+    background: linear-gradient(to right,blue,rgb(81, 81, 123));
+    height: 20vh;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.footer>h3{
+   text-align: center;
+   padding-top: 50px;
+   color: white;
+    
+}

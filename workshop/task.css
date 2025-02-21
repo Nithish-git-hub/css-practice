@@ -1,0 +1,438 @@
+*{
+    scroll-behavior: smooth;
+}
+.firstrow{
+    background:linear-gradient(to right,rgba(14, 14, 242, 0.904),rgba(0, 0, 255, 0.636));
+    height: 130vh;
+    padding-top: 10px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    margin-left: 5%;
+    gap: 320px;
+    background: linear-gradient(to right,rgba(14, 14, 242, 0.904),rgba(0, 0, 255, 0.636));
+    padding: 20px 50px 15px 50px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.rightnav{
+    display: flex;
+     gap:50px
+}
+.rightnav>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 15px;
+}
+.rightnav>a:hover{
+    background-color: rgb(178, 178, 233);
+    border-radius: 10px; 
+}
+.rightnav>#aone{
+    background-color: rgb(178, 178, 233);
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.rightnav>button{
+    background-color: orangered;
+    color:white;
+    padding: 10px 25px;
+    border-radius: 18px;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    margin: 6% 5% 0 5%;
+    gap:190px;
+}
+.welcomet>h3{
+      color: white;
+}
+.welcomet>h1{
+      color: white;
+      font-size: 50px;
+}
+.underlined>span{
+       text-decoration: underline;
+       text-decoration-color: rgb(228, 152, 152);
+       text-decoration-style:wavy;
+       text-underline-offset: 4px;
+}
+.welcomet>p{
+      color: white;
+      font-size: 20px;
+}
+.form{
+    background-color:white;
+    padding-left: 10%;
+    border-radius: 40px;
+    margin-right: 16%;
+    
+}
+.form>input{
+    padding: 15px 250px 15px 0px;
+    border: none;
+    outline: none;
+}
+.form>button{
+    padding: 15px 30px 15px 10px;
+    background-color: lightcoral;  
+    border-radius: 45px;
+    color: white;
+    margin-left: 9px;
+}
+.welcomei>img{
+    border-radius: 30px;
+}
+.welcomei>#ione{
+    position: relative;
+    left: 83%;
+    bottom: 490px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.welcomei>#itwo{
+    position: relative;
+    bottom: 20px;
+    right: 140px;
+    background-color: lightcoral;
+    padding: 40px 40px;
+    border-radius:60%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.secondrow{
+    display: flex;
+    height: 30vh;
+    width: 97vw;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 70px;
+}
+.secondrow1{
+    display: inline-block;
+    padding: 25px 60px;
+    border: 2px solid black;
+    border-radius: 18px;
+    background-color: white;
+}
+.secondrow1>img{
+    padding:39px;
+    border: 1px solid white;
+    border-radius: 120px;
+    background-color: blue;
+}
+#hover1>img:hover{
+    background-color: lightcoral;
+}
+#hover2>img:hover{
+    background-color: lightcoral;
+}
+#hover3>img:hover{
+    background-color: lightcoral;
+}
+#hover4>img:hover{
+    background-color: lightcoral;
+}
+
+.thirdrow{
+    margin: 4% 5% 0px 5%;
+}
+.trendinggames{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trendinggames>a{
+    text-decoration: none;
+    background-color: rgb(249, 126, 78);
+    padding: 18px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+}
+.trendinggames>a:hover{
+    background-color: blue;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card>.card1{
+    height: 43vh;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+#card11>img{
+    border-radius: 26px;
+}
+#card12>img{
+    border-radius: 26px;
+}
+#card13>img{
+    border-radius: 26px;
+}
+#card14>img{
+    border-radius: 26px;
+}
+#bag1>a{
+    position: relative;
+    bottom: 42px;
+    left: 250px;
+    padding: 10px 10px;
+    border-radius: 70px;
+    background-color: antiquewhite;
+}
+.card1:hover h4{
+        color: blue;
+}
+.card1:hover>#bag1>a{
+   background-color: blue;
+}
+.card1>h4{
+    font-size: 20px;
+}
+.card1>.position{
+    border-radius: 8px;
+    padding: 0px 15px;
+    width: 23px;
+    height: 62px;
+    position: relative;
+    bottom: 330px;
+    left: 230px;
+    background-color: blue;
+    color: white;
+}
+.position>p{
+    text-decoration: line-through;
+}
+.card1>.position1{
+    border-radius: 8px;
+    padding: 10px 25px;
+    width: 23px;
+    height: 28px;
+    position: relative;
+    bottom: 320px;
+    left: 210px;
+    background-color: blue;
+    color: white;
+}
+.card1>.position1>span{
+     font-weight: bold;
+     font-size: 20px;
+}
+
+.fourthrow{
+    height: 100vh;
+    background-color: whitesmoke;
+    margin: 6% 5% 0px 5%;
+    border-radius: 80px;
+}
+.fourthrow>h3{
+    padding-top: 50px;
+    padding-left: 20px;
+    color: lightcoral;
+}
+.mostplayed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 30px;
+}
+.mostplayed>h1{
+     font-size: 45px;
+}
+.mostplayed>a{
+    text-decoration: none;
+    background-color: lightcoral;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.mostplayed>a:hover{
+    background-color: blue;
+}
+
+.frowimages{
+    display: flex;
+    padding: 0px 25px 0px 25px;
+    justify-content: space-evenly;
+}
+.frow1{
+   background-color: white;
+    text-align: center; 
+    border-radius: 40px;
+    width: 195px;
+}
+.frow1>img{
+    border-radius:40px ;
+}
+.frow1>a{
+    text-decoration: none;
+    background-color: lightcoral;
+    position: relative;
+    top: 13px;
+    padding: 15px 20px;
+    border-radius: 18px;
+    color: white;
+}
+.frow1:hover a{
+    background-color: blue;
+}
+.frow1:hover h2{
+    color: blue;
+}
+.frow1>h4{
+    color:silver;
+}
+
+.fifthrow{
+    margin-top: 10%;
+    text-align: center;
+}
+.fifthrow>h3{
+    color: lightcoral;
+}
+.fifthrow>.cards{
+    margin: 3% 5% 0 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthrow>.cards>.card1{
+    height: 260px;
+    background-color: blue;
+    width: 236px;
+    border-radius: 20px;
+}
+.fifthrow>.cards>.card1>h3{
+    text-align: center;
+    color: white;
+}
+.fifthrow>.cards>.card1:hover h3{
+    color: white;
+}
+.fifthrow>.cards>.card1>.image>img{
+    border-radius:20px ;
+}
+.sixthrow{
+    margin: 7% 5% 0 18%;
+    display: flex;
+    
+}
+.sixthrow>.sixth1{
+  background-color: silver;
+   height: 70vh;
+   width: 50vw;
+   text-align: center;
+   border-radius: 30px;
+   position: relative;
+   right: 350px;
+   top: 80px;
+   z-index: 1;
+}
+.sixth1>h3{
+    color: lightcoral;
+}
+.sixth1>h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.sixth1>h1>span{
+    color: blue;
+}
+.sixth1>p{
+    font-size: 20px;
+}
+.sixth1>a{
+    text-decoration: none;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+}
+.sixth1>a:hover{
+    background-color: blue;
+}
+.sixthrow>.sixth2{
+    background-color: silver;
+    height: 70vh;
+    width: 50vw;
+    padding-left: 30px;
+    border-radius: 30px;
+    position: relative;
+    right: 180px;
+    top: 300px;
+    z-index: 1;
+}
+.sixth2>h3{
+     color: lightcoral;
+}
+.sixth2>h1{
+    font-size: 40px;
+}
+.sixth2>h1>span{
+    color: blue;
+}
+.sixth2>.input{
+    background-color:white;
+    margin-right: 5px;
+    border-radius: 40px;
+    padding:10px 0px 10px 0px ;
+      
+}
+.sixth2>.input:hover{
+    outline: 3px solid rgb(156, 156, 223);
+}
+.sixth2>.input>input{
+    border-radius: 40px;
+    border: none;
+    outline: none;
+   
+}
+.sixth2>.input>button{
+    padding: 15px 5px;
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 40px;
+    margin-left: 100px;
+}
+.sixth2>.input>button:hover{
+    background-color: blue;
+}
+.sixthrow>img{
+    width: 40vw;
+    height: 70vh;
+    border-radius: 40px;
+    position: relative;
+    left: 350px;
+}
+.footer{
+    margin:23% 5% 0 5% ;
+    background: linear-gradient(to right,blue,rgb(81, 81, 123));
+    height: 20vh;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.footer>h3{
+   text-align: center;
+   padding-top: 50px;
+   color: white;
+    
+}
+

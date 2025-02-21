@@ -33,10 +33,10 @@ body{
 }
 .one>img{
     transition: transform 3s ease 1s;
-    padding-right: 600px;
+    padding-right: 300px;
     border-radius: 120px;
 }
-.one>img:hover{
+.one:hover img{
     transform: translate(500px,0);
 }
 .one>span{
