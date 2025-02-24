@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    background-color: green;
+    border-radius: 10px;
+}
+.parent{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    justify-items: center;
+}
+.parent>.child{
+    width: 100%;
+    background-color: aqua;
+    height: 50vh;
+    border-radius: 40px;
+}
+.child>img{
+    margin-top: 5%;
+   padding-left: 10%;
+    width: 80%;
+    height: 70%;
+    
+}
+.child>h3{
+    text-align: center;
+}
+.child>#one{
+   margin-left: 15%;
+  
+   background-color: brown;
+   color: white;
+   border-radius: 3px;
+   text-align: center;
+  
+}
+.child>#two{
+    
+  
+    background-color: brown;
+    color: white;
+    border-radius: 3px; 
+}

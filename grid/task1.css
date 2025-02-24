@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0px 20px 50px 20px;
+    border-radius: 30%;
+}
+.divp{
+    background-color: rgb(234, 67, 117);
+    margin: 5px;
+    display: grid;
+    grid-template-columns:20vw 30vw  20vw auto ;
+    grid-template-rows: 30px 30px 30px;
+    gap: 5px;
+    height: 20vh;
+}
+.divp>.div{
+    background-color: rgb(12, 199, 220);
+    border: 2px solid black;
+}
+.div1{
+    grid-row-start:1;
+    grid-row-end: 3;
+}
+
+.div5{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.div6{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.div7{
+    grid-column-start: 2;
+    grid-column-end:5;
+}
+.div9{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
