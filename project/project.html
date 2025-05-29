@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid d-flex w-95 justify-content-around align-items-center">
+            <a class="navbar-brand" href="#"><span>AI</span>Mentor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex w-55 justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="one" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Single-blog</a></li>
+                            <li><a class="dropdown-item" href="#">Four-Coloumn</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Load-More</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <form class="d-none d-md-flex">
+                <button class="btn" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <span class="login">Login</span>
+        </div>
+    </nav>
+     
+    <div class="hero-section container-fluid">
+        <div class="row align-items-center hero-content">
+            <div class="col-lg-6 col-md-12 text-content">
+                <h1 class="display-4 fw-bold">
+                    The <span class="highlight">Future</span> in AI Graphic Generator
+                </h1>
+                <p class="lead">An Active OpenAI Token is Essential for Image Generation</p>
+                <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+    </div>
+
+    
+<section class="container-fluid text-center" data-aos="fade-up">
+    <h5 class="text-success fw-bold">WHAT WE DO</h5>
+    <h2 class="text-white fw-bold">
+        Unleash the Potential of AI Development Tools
+    </h2>
+    <p class="text-light">
+        Crafted with Brilliance, Style, Quality, and Creativity
+    </p>
+
+    
+    <div id="aiCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./secondrow1.png" class="d-block w-100" alt="AI Image 1">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow2.png" class="d-block w-100" alt="AI Image 2">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow3.png" class="d-block w-100" alt="AI Image 3">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow4.png" class="d-block w-100" alt="AI Image 4">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="./secondrow5.png" class="d-block w-100" alt="AI Image 5">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow1.png" class="d-block w-100" alt="AI Image 6">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow3.png" class="d-block w-100" alt="AI Image 7">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./secondrow2.png" class="d-block w-100" alt="AI Image 8">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#aiCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aiCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+
+       
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aiCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#aiCarousel" data-bs-slide-to="1"></button>
+        </div>
+    </div>
+</section>
+
+    <div class="thirdrow" data-aos="fade-up">
+        <div class="thirdrowh">
+            <h4>HUGE COLLECTION</h4>
+            <h1>AI-Powered Design</h1>
+        </div>
+        <div class="thirdrow1">
+          <div class="thirdrowdiv1">
+            <img src="./thirdrow1.png" alt="">
+            <br>
+            <br>
+            <h3>Intelligent</h3>
+            <p>Adipiscing elit, sed do eiusmod labore dolore magna aliqua.</p>
+          </div>
+          <div class="thirdrowdiv1">
+            <img src="./thirdrow2.png" alt="">
+            <br><br>
+            <h3>Visualization</h3>
+            <p>Adipiscing elit, sed do eiusmod labore dolore magna aliqua.</p>
+          </div>
+          <div class="thirdrowdiv1">
+            <img src="./thirdrow3.png" alt="">
+            <br><br>
+            <h3>Creativity</h3>
+            <p>Adipiscing elit, sed do eiusmod labore dolore magna aliqua.</p>
+          </div>
+          <div class="thirdrowdiv1">
+            <img src="./thirdrow4.png" alt="">
+            <br><br>
+            <h3>Flexible</h3>
+            <p>Adipiscing elit, sed do eiusmod labore dolore magna aliqua.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="fourthrow" data-aos="fade-up">
+        <div class="fourthrowi">
+           <img src="./fourthrowi.png" alt="">
+        </div>
+        <div class="fourthrowt">
+        <h4>ABOUT US</h4>
+        <h1>Architecting the Digital Future</h1>
+        <p>AI-powered software helps architects explore complex design possibilities, optimize spatial layouts, and enhance aesthetic and functional aspects of buildings. The integration of AI into architectural workflows not only accelerates the design process but also fosters greater creativity and precision.</p>
+        <br><br>
+        <span>About Us</span>
+        </div>
+    </div>
+    
+    <div class="fifthrow" data-aos="fade-up">
+    <header class="text-center p-4">
+        <h5 class="text-success fw-bold">AI IMAGE GALLERY</h5>
+        <h2 class="fw-bold">Explore Stunning AI-Generated Art</h2>
+    </header>
+
+    <div class="container">
+        <div class="row g-3">
+            
+            <div class="col-lg-3 col-md-6 col-6">
+                <img src="./fifthrowi1.png" class="img-fluid rounded" alt="AI Image 1">
+            </div>
+            <div class="col-lg-3 col-md-6 col-6">
+                <img src="./fifthrowi2.png" class="img-fluid rounded" alt="AI Image 2">
+            </div>
+    
+            
+            <div class="col-lg-6 col-md-12 col-12 ai3">
+                <img src="./fifthrowi3.png " class="img-fluid rounded tall-image" alt="AI Image 3">
+            </div>
+    
+            
+            <div class="col-lg-3 col-md-3 col-6">
+                <img src="./fifthrowi4.png" class="img-fluid rounded" alt="AI Image 4">
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <img src="./fifthrowi5.png" class="img-fluid rounded" alt="AI Image 5">
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <img src="./fifthrowi6.png" class="img-fluid rounded" alt="AI Image 6">
+            </div>
+            <div class="col-lg-3 col-md-3 col-6">
+                <img src="./fifthrowi7.png" class="img-fluid rounded" alt="AI Image 6">
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="sixthrow" data-aos="fade-up">
+        <div class="sixthrowh">
+              <h3>AFFORDABLE PLANS</h3>
+              <h2>Pricing Plans</h2>
+        </div>
+        <div class="sixthrowt">
+            <div class="sixthrowt1">
+                <h2>Business Plan</h2>
+                <p>Perfect for private individuals</p>
+                <span>Starting at:</span>
+                <span>$8/mo</span>
+                <ul>
+                    <li>100 Projects</li>
+                    <li> Download prototypes</li>
+                    <li>Graphic Images</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="sixthrowt1">
+                <h2>Premium Plan</h2>
+                <p>Perfect for private companies</p>
+                <span>Starting at:</span>
+                <span>$19/mo</span>
+                <ul>
+                    <li>Unlimited Projects</li>
+                    <li> Download prototypes</li>
+                    <li>Graphic Images</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="seventhrow" data-aos="fade-up">
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="border rounded p-3 bg-dark text-white">
+                    <h3 class="text-center">Modern AI</h3>
+                    <video class="w-100" controls poster="./ai2.png">
+                        <source src="./video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="eightrow" data-aos="fade-up">
+    <div class="container mt-5">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                
+                <div class="carousel-item active">
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <div class="testimonial-card">
+                                <p class="quote">"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."</p>
+                                <img src="./eighti1.png"  alt="John Michael" class="rounded-circle">
+                                <h5>John Michael</h5>
+                                <p class="role">Engineer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="testimonial-card">
+                                <p class="quote">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore voluptatem."</p>
+                                <img src="./eighti2.png" alt="Rizwan Joseph" class="rounded-circle">
+                                <h5>Rizwan Joseph</h5>
+                                <p class="role">UI/UX Engineer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class="carousel-item">
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <div class="testimonial-card">
+                                <p class="quote">"Another testimonial text here, showcasing the great experience."</p>
+                                <img src="./eighti2.png" alt="Jane Doe" class="rounded-circle">
+                                <h5>Jane Doe</h5>
+                                <p class="role">Software Developer</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="testimonial-card">
+                                <p class="quote">"More feedback from happy clients or users in the system."</p>
+                                <img src="./eighti1.png" alt="Alex Smith" class="rounded-circle">
+                                <h5>Alex Smith</h5>
+                                <p class="role">Product Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="ninthrow" data-aos="fade-up">
+    <div class="container my-0">
+        <h6 class="text-success text-center">LATEST POSTS</h6>
+        <h1 class="text-light text-center">News & Articles</h1>
+
+        <div class="row mt-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./ninthrowi1.png" class="card-img-top" alt="News Image">
+                    <div class="card-body">
+                        <p class="author"><i class="fa fa-user user"></i> Caroline Forsey</p>
+                        <h5 class="card-title">The Top Benefits of AI for Marketers, State of AI Data</h5>
+                        <p class="card-meta">
+                            <i class="fa fa-calendar custom-icon"></i> June 20, 2023 
+                            <i class="fa fa-comment custom-icon"></i> 0 Comments
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./ninthrow2.png" class="card-img-top" alt="News Image">
+                    <div class="card-body">
+                        <p class="author"><i class="fa fa-user user"></i> Caroline Forsey</p>
+                        <h5 class="card-title">AI Tools to Help You Grow Your AI Graphics Business</h5>
+                        <p class="card-meta">
+                            <i class="fa fa-calendar custom-icon"></i> June 20, 2023 
+                            <i class="fa fa-comment custom-icon"></i> 0 Comments
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card">
+                    <img src="./ninthrowi2.png" class="card-img-top" alt="News Image">
+                    <div class="card-body">
+                        <p class="author"><i class="fa fa-user user"></i> Caroline Forsey</p>
+                        <h5 class="card-title">When Is the Best Time to Post on Instagram in 2023?</h5>
+                        <p class="card-meta">
+                            <i class="fa fa-calendar custom-icon"></i> June 25, 2023 
+                            <i class="fa fa-comment custom-icon"></i> 0 Comments
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="tenthrow" id="contact" data-aos="fade-up" >
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-3 col-md-6 copyright">
+                    <h4 class="brand-text">Ai<span class="text-success">Mentor</span></h4>
+                    <p>Copyright © 2023 AiMentor. All Rights Reserved.</p>
+                    <p>Social Media</p>
+                    <div class="social-icons">
+                        <a href="#" class="sociali"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="sociali"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="sociali"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="sociali"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5>About</h5>
+                    <ul class="list-unstyled">
+                        <li class="anchor"><a href="#">About Company</a></li>
+                        <li class="anchor"><a href="#">Our Solutions</a></li>
+                        <li class="anchor"><a href="#">Our Best Services</a></li>
+                        <li class="anchor"><a href="#">Professional Team</a></li>
+                    </ul>
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6">
+                    <h5>Address</h5>
+                    <p class="maps"><i class="fa fa-map-marker-alt text-success"></i> 551 Swanston Street, Melbourne, Australia</p>
+                    <p class="maps"><i class="fa fa-phone text-success"></i> +61 3 8376 6284</p>
+                    <p class="maps"><i class="fa fa-envelope text-success"></i> info@designingmedia.com</p>
+                </div>
+
+                
+                <div class="col-lg-3 col-md-6 newsletter">
+                    <h5>Newsletter Signup</h5>
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Enter Your Email Address">
+                        <button type="submit" class="btn btn-primary w-50 buttonone">Send</button>
+                    </form>
+                    <small class="privacy-text">
+                        <input type="checkbox"> I agree to the <a href="#" class="text-success">Privacy Policy</a>.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+</body>
+</html>
